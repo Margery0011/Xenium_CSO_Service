@@ -10,6 +10,7 @@ The Xenium workflow begins with sample preparation. Fresh frozen (FF) or formali
 
 Once the sample has been prepared, imaging is performed in cycles on the **Xenium Analyzer**. During each cycle, fluorescently labeled probes for detecting RNA target sequences and other reagents (see [Controls](https://www.10xgenomics.com/support/in-situ-gene-expression/documentation/steps/onboard-analysis/xenium-algorithms-overview#qvs)), are automatically cycled in, imaged, and removed. The internal image sensor captures data across multiple Z-planes (with a 0.75 μm step size across the entire tissue thickness) for every field of view (FOV) in the user-selected region (see Region Selection Guidelines in the [Xenium Analyzer instrument user guide](https://www.10xgenomics.com/support/in-situ-gene-expression/documentation/instruments/xenium-analyzer/xenium-analyzer-user-guide)). Image data are captured for multiple fluorescence channels every cycle, and are processed and stitched to build a spatial map of the transcripts across the tissue section.
 
+![overview](https://github.com/Margery0011/Xenium_CSO_Service/blob/main/Figures/Screenshot%202023-12-14%20at%209.31.43%20AM.png?ra3=true)
 
 ### Understand Xenium Outputs
 
