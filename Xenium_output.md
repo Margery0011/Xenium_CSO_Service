@@ -54,7 +54,10 @@ You could also click the `? `at the top of each dashboard for more information a
 
 The **Key Metrics** panel is the starting point to QC your data and to spot outliers among multiple runs at a glance. These metrics are often helpful indicators if there is a problem with the data.
 
-![Alt text](<Screenshot 2023-12-13 at 10.06.10 AM.png>)
+![Description of the figure](https://github.com/Margery0011/Xenium_CSO_Service/blob/main/Figures/Screenshot%202023-12-13%20at%2010.06.10%20AM.png?raw=true)
+
+
+
 
 There are no universal thresholds for these metrics as interpretation requires some understanding of the sample and gene panel used. Researchers should have some understanding of how many cells are expected given the tissue size and type. Here are some important considerations for interpreting key metrics:
 
@@ -67,14 +70,14 @@ There are no universal thresholds for these metrics as interpretation requires s
 
 The Xenium codebook contains a collection of codewords that are assigned to genes in a **gene panel**. The pipeline uses the `gene_panel.json` to specify a given gene name to an indexed codeword. Each codeword is defined based on a pattern of fluorescent signal intensities recorded across channels and cycles. Some codewords are reserved for negative controls. 
 
-![Alt text](<Screenshot 2023-12-13 at 10.13.56 AM.png>)
+![Alt text](https://github.com/Margery0011/Xenium_CSO_Service/blob/main/Figures/Screenshot%202023-12-13%20at%2010.13.56%20AM.png?raw=true)
 
 The Decoding Yield section provides QC metrics at a glance. Biological and experimental context may be needed for interpretation.
 
 ### Cell Segmentation tab
 
 
-![Alt text](<Screenshot 2023-12-13 at 10.31.04 AM.png>)
+![Alt text](https://github.com/Margery0011/Xenium_CSO_Service/blob/main/Figures/Screenshot%202023-12-13%20at%2010.31.04%20AM.png?raw=true)
 
 
 The purpose of cell segmentation is to approximate cell boundaries so that transcripts can be assigned to cells. Downstream, these results will be used to produce a cell-feature matrix, similar to those output by existing single cell and spatial technologies. 
@@ -83,12 +86,12 @@ The purpose of cell segmentation is to approximate cell boundaries so that trans
 
 The **Transcripts Per Cell** view shows the spatial distribution (left) and UMAP projection (right) of cells colored by the total number of transcripts detected in each cell. 
 
-![Alt text](<Screenshot 2023-12-13 at 10.33.44 AM.png>)
+![Alt text](https://github.com/Margery0011/Xenium_CSO_Service/blob/main/Figures/Screenshot%202023-12-13%20at%2010.33.44%20AM.png?raw=true)
 
 The **Clustering** view shows the spatial distribution (left) and UMAP projection (right) of cells colored by cluster assignment using the Onboard Analysis pipeline's automated clustering algorithm. The clusters should reflect groups of cells that have similar expression profiles. Only cells with a nucleus detected by the DAPI stain are used in the clustering algorithm.
 
-![Alt text](<Screenshot 2023-12-13 at 10.33.50 AM.png>)
+![Alt text](https://github.com/Margery0011/Xenium_CSO_Service/blob/main/Figures/Screenshot%202023-12-13%20at%2010.33.50%20AM.png?raw-true)
 
 The **Top Features by Cluster table** displays results from the Onboard Analysis pipeline's automated differential expression analysis. For each cluster, the table shows features that are more highly expressed in that cluster relative to the rest of the sample.
 
-![Alt text](<Screenshot 2023-12-13 at 10.33.56 AM.png>)
+![Alt text](https://github.com/Margery0011/Xenium_CSO_Service/blob/main/Figures/Screenshot%202023-12-13%20at%2010.33.56%20AM.png?raw=true)
